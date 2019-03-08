@@ -64,7 +64,7 @@ class Google extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        googleData: state.googleData
+        googleData: state.googleReducer
     }
 }
 

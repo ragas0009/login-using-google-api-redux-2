@@ -36,7 +36,7 @@ class Facebook extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        fbData: state.fbData
+        fbData: state.facebookReducer
     }
 }
 

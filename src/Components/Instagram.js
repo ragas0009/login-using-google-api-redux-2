@@ -37,7 +37,7 @@ class Instagram extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        instaData: state.instaData
+        instaData: state.instagramReducer
     }
 }
 

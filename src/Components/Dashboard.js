@@ -25,7 +25,7 @@ class Dashboard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        userData: state.userData
+        userData: state.userReducer
     }
 }
 export default connect(mapStateToProps)(Dashboard);
